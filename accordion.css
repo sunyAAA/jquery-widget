@@ -1,0 +1,23 @@
+.accordion > .title {
+    background: #eee;
+    border: 1px solid #aaa;
+    padding: 6px;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.accordion > .content {
+    border: 1px solid transparent;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    background-color: #fff;
+    transition: all .5s linear;
+}
+.content.open {
+    height: 120px;
+    border: 1px solid #ada;
+    opacity: 1;
+    background-color: #aaddaa;
+}

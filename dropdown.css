@@ -1,0 +1,27 @@
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 0 6px #aaa;
+    position: absolute;
+    top: 30px;
+}
+.dropdown-menu li {
+    padding: 6px 20px 6px 6px;
+}
+.fade {
+    opacity: 0;
+    transition: all .5s linear;
+}
+.in{
+    opacity: 1;
+}
